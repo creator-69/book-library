@@ -48,13 +48,13 @@ class Library:
 
 # Example usage:
 library = Library()
-book1 = Boks("Green", 1918, "Festival")
+book1 = Boks("Red", 1918, "Festival")
 book2 = Boks("Farnam", 1969, "F. Scott Fitzgerald")
 
 library.add_book(book1)
 library.add_book(book2)
 
-user1 = User("Farnam", "creator6985@gmail.com")
+user1 = User("creator", "creator6985@gmail.com")
 library.register_user(user1)
 
 library.borrow_book("Festival", user1.email)
