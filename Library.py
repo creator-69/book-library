@@ -48,8 +48,8 @@ class Library:
 
 # Example usage:
 library = Library()
-book1 = Boks("Red", 1918, "Festival")
-book2 = Boks("Farnam", 1969, "F. Scott Fitzgerald")
+book1 = Boks("Red", 1928, "Festival")
+book2 = Boks("Farnam", 1978, "F. Scott Fitzgerald")
 
 library.add_book(book1)
 library.add_book(book2)
