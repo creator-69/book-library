@@ -54,7 +54,7 @@ book2 = Boks("Farnam", 1978, "F Scott Fitzgerald")
 library.add_book(book1)
 library.add_book(book2)
 
-user1 = User("creator", "creator6985@gmail.com")
+user1 = User("create", "creator6985@gmail.com")
 library.register_user(user1)
 
 library.borrow_book("Festiv", user1.email)
