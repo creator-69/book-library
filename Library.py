@@ -40,7 +40,7 @@ class Library:
                 self.books.remove(book)
                 print(f"{user_email} borrowed '{title}'")
                 return
-        print(f"Book '{title}' is not available.")
+        print(f"Book '{title}' is Not available.")
 
     def return_book(self, book):
         self.books.append(book)
