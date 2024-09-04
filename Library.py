@@ -44,7 +44,7 @@ class Library:
 
     def return_book(self, book):
         self.books.append(book)
-        print(f"'{book.title}' Has been returned to the library.")
+        print(f"'{book.title}' hs been a rned to the library.")
 
 # Example usage:
 library = Library()
