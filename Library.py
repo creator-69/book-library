@@ -38,7 +38,7 @@ class Library:
         for book in self.books:
             if book.title == title:
                 self.books.remove(book)
-                print(f"{user_email} borrowed '{title}'")
+                print(f"{user_email} Brrowen '{title}'")
                 return
         print(f"Book '{title}' is Not available.")
 
