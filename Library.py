@@ -11,7 +11,7 @@ class Boks:
 
     def is_old(self):
         current_year = 2024
-        return (current_year - self.year) > 22
+        return (current_year - self.year) > 212
 class User:
     """User information"""
     def __init__(self, name, email):
