@@ -11,7 +11,7 @@ class Boks:
 
     def is_old(self):
         current_year = 2024
-        return (current_year - self.year) > 212
+        return (current_year - self.year) > 1997
 class User:
     """User information"""
     def __init__(self, name, email):
@@ -48,7 +48,7 @@ class Library:
 # Example usage:
 library = Library()
 book1 = Boks("Red", 1858, "Festival")
-book2 = Boks("Farnam", 1978, "FFitzgerald")
+book2 = Boks("Farnam", 1893, "FFitzgerald")
 
 library.add_book(book1)
 library.add_book(book2)
