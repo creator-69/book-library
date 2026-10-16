@@ -1,25 +1,24 @@
 # Book Library
 
-A book-library practice project in my programming portfolio.
+A Python object-oriented programming exercise modeling books, users, and a simple library.
 
-## Project purpose
+## What's implemented
 
-The repository is intended to explore a simple book-library concept. Consult the source code for the exact features implemented; this README avoids claiming functionality that has not been verified.
+- `Boks` stores a book's author, publication year, and title, and exposes a `get_info()` method.
+- `User` stores a user's name and email.
+- `Library` keeps in-memory lists of books and users, with methods to add books, register users, borrow by title, and return a book.
+- The script includes example objects and demonstrates borrowing and returning.
 
-## Run it
+## Run
 
-A tested run command is not documented yet. Review the source files to identify the entry point and runtime, install dependencies only if specified by the project, and run it using that environment's normal workflow.
+Requires Python 3.
+
+```bash
+python Library.py
+```
 
 ## Learning focus
 
-- Representing a small, real-world concept in code
-- Organizing project files
-- Writing clear setup and usage documentation
+Classes, constructors, instance attributes, methods, lists of objects, and basic object interaction.
 
-## Next improvements
-
-- Add a screenshot of the running project.
-- List the actual features after checking them against the implementation.
-- Document the exact environment and a tested run command.
-
-[More projects by Farnam](https://github.com/creator-69?tab=repositories)
+**Current limitations:** data is in memory only; borrowing does not track which user has a book, and the age-check method uses a fixed year. These are useful next steps for improving the model.
